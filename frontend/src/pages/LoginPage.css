@@ -1,0 +1,46 @@
+.login-page-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.new-register-now-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.new-register-now-container a {
+    text-decoration: none;
+}
+
+.new-register-now-container a:hover {
+    text-decoration: underline;
+}
+
+.error-message {
+    margin-bottom: 10px;
+    padding: 3px;
+    color: indianred;
+}
+
+
